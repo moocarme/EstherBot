@@ -60,7 +60,264 @@ $(document).ready(function () {
     <![endif]-->
 </head>
 </head>
-<body>
-    <h2>SmoochBot Demo</h2>
-</body>
+ <body id="page-top" class="index">
+       <!-- Navigation -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/#page-top">Matthew Moocarme</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="/#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#about">About</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/Resume/">Resume</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="/#portfolio">Portfolio</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+        <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt=""  height="300" width="300">
+                    <div class="intro-text">
+                        <span class="name">Matthew Moocarme</span>
+                        <hr class="star-light">
+                        <span class="skills">Data Scientist - PhD Physics Candidate - Information Wrangler</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio">
+		<br>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Portfolio</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/riffCode/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption text-center vertical-center-row">
+                                
+                                <div class="caption-content img-centered vertical-center-row">
+                                	<h4>Why does all country music sound the same?</h4>
+                                	<p>Scraping guitar tablature and lyrics, and discovering patterns and trends.</p>
+                                		<p><b>Skills and techniques</b> - Python, SQL, webscraping, data-cleaning.</p>
+                                	<!--<i class="
+                                	  fa fa-search-plus fa-3x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/guitar.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/NY-Lead/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content text-center">
+                                	<h4>Does the Concentration of Airborne Lead Affect the Number of Complaints due to Lead in NYC?</h4>
+                                	<p><ul>Combining NYC 311 with EPA data.</ul> 
+                                		<ul><b>Skills and techniques</b> - R, data joining, predictive analysis.</ul></p>
+                                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/city.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/Vision-Zero/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                	<h4>Has Vision Zero Worked?</h4>
+                                	<p><ul>Anaysing NYC motor collisions to see if Vision Zero has had a statistical impact.</ul> 
+                                		<ul><b>Skills and techniques</b> - Tableau, R, time-series analyses.</ul></p>
+                                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/visionZero-01.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/MapWiki/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                	<h4>Mapping the Page Categories of Wikipedia Using Python & SQL </h4>
+                                	<p><ul>Finding patterns in the interactions of wikipedia page categories.</ul> 
+                                		<ul><b>Skills and techniques</b> - Python, SQL, Webscraping.</ul></p></h3>
+                                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/wiki.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/AppleStockPred/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                	<h4>Predicting stock market returns</h4>
+                                	<p><ul>Using google trends to predict changes in stock market returns.</ul> 
+                                		<ul><b>Skills and techniques</b> - R, time-series analyses, predictive analyses.</ul></p>
+                                    <!--<i class="fa fa-search-plus fa-2x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/appleStock.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    <div class="col-sm-4 portfolio-item">
+                        <a href="/R-Vs-Python-LinRegress/" class="portfolio-link" data-toggle="modal">
+                            <div class="caption">
+                                <div class="caption-content">
+                                	<h4>R Vs Python - Linear Regression</h4>
+                                	<p><ul>Comapring speed and ease of use between languages.</ul> 
+                                		<ul><b>Skills and techniques</b> - R, python.</ul></p>
+                                    <!--<i class="fa fa-search-plus fa-3x"></i>-->
+                                </div>
+                            </div>
+                            <img src="/img/portfolio/Rpython.png" class="img-responsive" alt="image-alt">
+                        </a>
+                    </div>
+                
+                    
+            </div>
+        </div>
+    </section>
+            	
+     <!-- About Section -->
+    <section class="success" id="about">
+		<br	>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>About</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                <!-- <div class="col-lg-4 col-lg-offset-2"> -->
+                    <p>I'm Matthew Mooarme. I like to tackle difficult and complex real-world problems. I strive not to simply describe things, but understand them, and discover why they do what they do. This is what attracted me to a PhD in physics and gets me excited for data science. I value open-source learning, simplicity in design, good questions, and embody lifelong learning.</p>
+                  </br>
+                <!-- </div>
+                <div class="col-lg-4"> -->
+                    <p><b>Key Strengths:</b>
+                        <ul>
+                            <li><p>Intellectual curiosity - Data science is discovery!</p></li>
+                            <li><p>Pattern finding</p></li>
+                            <li><p>Mathematical expertise</p></li>
+                            <li><p>Creative problem solver</p></li>
+                            <li><p>Business acumen</p></li>
+                            <li><p>Team player</p></li>
+                        </ul>
+                    </p>
+                <!-- </div> -->
+            </div>
+            </div>
+        </div>
+    </section>
+
+ 
+        <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Brooklyn <br>
+							New York <br></p>
+							
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Around the Web</h3>
+                        <ul class="list-inline">
+                            
+                            <li>
+                                <a href="https://github.com/moocarme" class="btn-social btn-outline" target="blank"><i class="fa fa-fw fa-github"></i></a>
+                            </li>
+		                    
+                            <li>
+                                <a href="https://www.linkedin.com/in/matthew-moocarme-78a053b6" class="btn-social btn-outline" target="blank"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+		                    
+                        </ul>
+                        <h4><br>moocarme@gmail.com</h4>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Credits</h3>
+                        <p>This website is based on the free Bootstrap <a href="http://startbootstrap.com/template-overviews/freelancer/">Freelancer theme</a>.</p>
+                        <p>Images modified from <a href="http://www.freepik.com">Freepik</a>.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Matthew Moocarme 2016
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visible-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+  <!-- jQuery Version 1.11.0 -->
+    <script src="/js/jquery-1.11.0.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="/js/jquery.easing.min.js"></script>
+    <script src="/js/classie.js"></script>
+    <script src="/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/js/jqBootstrapValidation.js"></script>
+    
+    <script src="/js/contact_me_static.js"></script>
+    <script src="/js/awm.js" async=""></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/js/freelancer.js"></script>
+
+    </body>
 </html>
